@@ -41,11 +41,11 @@ export const MenuConfig: any[] = [
     ],
     /*access: [ ROLES.ADMINISTRADOR ],*/
     pages: [
-      /* {
-        link: ROUTE_PAGE.SUCURSAL.CREAR,
-        component: React.lazy(() => import("Page/sucursal/SucursalCrear")),
+       {
+        link: ROUTE_PAGE.USUARIO.CREAR,
+        component: React.lazy(() => import("page/usuario/UsuarioCrear")),
       },
-      {
+      /*{
         link: ROUTE_PAGE.SUCURSAL.EDITAR,
         component: React.lazy(() => import("Page/sucursal/SucursalEditar")),
       }, */

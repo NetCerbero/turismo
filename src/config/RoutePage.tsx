@@ -10,7 +10,8 @@ export const ROUTE_PAGE = {
     LOGIN: "/login",
   },
   USUARIO:{
-    VER:"/usuario"
+    VER:"/usuario",
+    CREAR:"/usuario/crear"
   },
   SERVICIO:{
     VER:"/servicio"
