@@ -1,0 +1,10 @@
+export const ATRAS = "Atrás";
+export const GUARDAR = "Guardar";
+export const ELIMINAR = "Eliminar";
+export const ANULAR = "Anular";
+export const EDITAR = "Editar";
+export const CREAR = "Crear";
+export const CERRAR = "Cerrar";
+export const ACEPTAR = "Aceptar";
+export const MODIFICADOR = "Modificador";
+export const MAS_INFORMACION = "Mas información";
