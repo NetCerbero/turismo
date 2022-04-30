@@ -13,9 +13,11 @@ export default function UsuarioCrear(props: any) {
     formState: { errors },
     handleSubmit,
   } = useForm({ resolver: yupResolver(UsuarioValidation) });
+
   const onSubmit = (data: any) => {
     console.log("onSubmit", data);
   };
+
   const ViewForm = (schema: any) => {
     return Object.keys(schema).map((key: any) => {
       return (
@@ -30,9 +32,10 @@ export default function UsuarioCrear(props: any) {
       );
     });
   };
+
   return (
     <Page>
-      <FormPaper>
+      <FormPaper title="Crear usuario">
         <form onSubmit={handleSubmit(onSubmit)}>
           <Grid container spacing={1}>
             {ViewForm(UsuarioSchema)}

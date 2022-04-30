@@ -29,6 +29,15 @@ export const MenuConfig: any[] = [
         icon: <EmojiTransportationIcon />,
         //access: [/* ROLES.ADMINISTRADOR, ROLES.PERSONAL */],
       },
+      {
+        nombre: "Tramsporte",
+        link: ROUTE_PAGE.TRANSPORTE.VER,
+        component: React.lazy(
+          () => import("page/transporte/Transporte")
+        ),
+        icon: <EmojiTransportationIcon />,
+        //access: [/* ROLES.ADMINISTRADOR, ROLES.PERSONAL */],
+      },
      /*  {
         nombre: "Sucursal",
         link: ROUTE_PAGE.SUCURSAL.LISTAR,

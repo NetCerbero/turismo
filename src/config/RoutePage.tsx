@@ -11,10 +11,15 @@ export const ROUTE_PAGE = {
   },
   USUARIO:{
     VER:"/usuario",
-    CREAR:"/usuario/crear"
+    CREAR:"/usuario/crear",
+    MM:"/usuarioa/asdasd/asdasd"
   },
   SERVICIO:{
     VER:"/servicio"
+  },
+  TRANSPORTE:{
+    VER:"/transporte",
+    EDITAR:"/transporte/:id"
   }
 };
 

@@ -13,6 +13,7 @@ import {
   Routes,
   Outlet,
 } from "react-router-dom";
+import Page from "components/Page";
 
 import { primary, secondary, success, error } from "./styles/theme";
 import Layout from "./components/Layout/Layout";
